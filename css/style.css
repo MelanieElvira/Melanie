@@ -1,0 +1,180 @@
+/* INICIO */
+
+.encabezado {
+background-color: white;  
+width: 300px;
+margin-left: 650px;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+
+/* BREVE DESCRIPCION */
+
+h3 {
+   font-size: freitag-light;
+   color: blue; 
+   width: 340px;
+   margin-left: 594px;
+   }
+
+/* NAV Y LISTAS */
+
+nav ul {
+   font-size: 18px;
+   font-family: fantasy;
+   list-style: none;
+   margin-left: 450px;
+   }
+
+li {
+   padding: 18px; 
+   display: inline-flex;  
+}
+
+a {
+   text-decoration: none;
+}
+
+/* FOTO LOGO */
+
+.logoIndex {
+   margin-left: 470px;
+   margin-right: 450px;
+}
+
+/* PIE DE PAGINA Y REDES SOCIALES */
+
+footer {
+   background-color: darkblue;
+   min-height: 200px;
+}
+
+.rrss {
+   text-align: center;
+}
+
+/* VISTA SOBRE MI DE TITULO Y LOGO */
+
+.titulo {
+   background-color: darkblue;
+   font-size: freitag-light; 
+   color: aliceblue;
+   width: 1500px;
+   min-height: 170px; 
+   text-align: center;
+}
+
+.logoPageTwo {
+   width: 300px;
+   height: auto;
+   margin: auto;
+}
+
+.historia {
+   border: 2px dashed rgb(0, 174, 255);
+}
+
+.bgVer {
+   background-color: greenyellow;
+}
+
+a:hover {
+   font-size: 30px; padding: 5px; background-color: aquamarine; border-radius: 15px;
+   text-decoration: none;
+}
+
+/* HEADER ESCUCHAME */
+
+.gridHome {
+   display: grid;
+   grid-template-columns: ;
+   grid-template-rows: ;
+}
+
+/* MAIN VISTA ESCUCHAME */
+
+.mb-50 {
+   margin-bottom: 50px;
+   flex-direction: row;
+} 
+
+.flex-header {
+   justify-content: space-evenly;
+}
+
+.cuerpo {
+   display: flex;
+   flex: inline-block;
+}
+
+.videoYoutube1 {
+   display: inline-block;
+}
+
+.audioSoundCloud {
+   display: inline-block;
+}
+
+.videoYoutube2 {
+   display: inline-block;
+}
+
+.vista-contactame {
+   background-image: url("../img/LOGO_STRATOMATT.png");
+}
+
+.mt-50 {
+   margin-top: 50px;
+}
+
+.p-15 {
+      padding: 15px;
+}
+
+.flex-rrss {
+   justify-content: space-evenly;
+}
+
+/* VISTA COLABORACIONES*/
+
+nav {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+ text-decoration: none;
+ font-size: 20px;  
+}
+
+li {
+ padding: 5px;
+ margin: 5px;  
+}
+
+.border {
+   border: 4px dashed magenta;
+   border-top: 8px solid lightsalmon;
+   border-bottom: 4px dashed mediumseagreen
+}
+
+.rrss {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+/* ENCABEZADO VISTA CONTACTAME */
+
+#ultimaPagina {
+   background-color: darkblue;
+   font-size: freitag-light; 
+   color: aliceblue;
+   width: 1500px;
+   min-height: 170px; 
+   text-align: center;
+}
