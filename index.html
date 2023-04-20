@@ -7,41 +7,49 @@
         <!-- LINK FAVICON -->
     <link rel="shortcut icon" href="img/LOGO_STRATOMATT.png" type="image/x-icon">
     <title>Strato Matt</title>
+        <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
         <!-- ENCABEZADO Y DESCRIPCION -->
     <header>
-        <h1 class="encabezado">STRATO MATT</h1>
-        <div>
-            <h3> Guitarrista, cantante y productor musical.</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-12 d-flex justify-content-center">
+                    <h1>STRATO MATT</h1>
+                </div>
+            </div>
+        </div>
+    </header>    
+        <div class="row">
+            <div class="col-12 col-xl-12 d-flex justify-content-center">
+                <h3> Guitarrista, cantante y productor musical.</h3>
+            </div>    
         </div>
         <!-- BOTONES DE NAVEGACION -->
-        <nav>
-            <ul>
-                <li><a href="pages/sobremi.html">SOBRE MI</a></li>
-                <li><a href="pages/escuchame.html">ESCUCHAME</a></li>
-                <li><a href="pages/colaboraciones.html">COLABORACIONES</a></li>
-                <li><a href="pages/contactame.html">CONTACTAME</a></li>
-            </ul>
-        </nav>
-    </header>
-            <!-- CONTENIDO PRINCIPAL DE LA PAGINA -->
-        <main>
-            <div class="logoIndex">
-                <img src="img/foto_portada1.jpeg" alt="foto portada" width="600" height="400">
-            </div>
+    <nav class="navbar navbar-expand-lg d-flex justify-content-center">
+            <a class="navbar-brand" href="pages/sobremi.html">SOBRE MI</a>
+            <a class="navbar-brand" href="pages/escuchame.html">ESCUCHAME</a>
+            <a class="navbar-brand" href="pages/colaboraciones.html">COLABORACIONES</a>
+            <a class="navbar-brand" href="pages/contactame.html">CONTACTAME</a>
+    </nav>
+                <!-- IMAGEN PRESENTACION -->
+        <main class="imageIndex">
+            <div class="text-center">
+                <img src="../img/foto_portada1.jpeg" class="rounded mx-auto d-block" alt="foto_sobre width="600" height="400">
+            </div> 
         </main>
             <!-- PIE DE PAGINA CON ENLACES A REDES -->
-        <footer>
-            <div>
-                <nav class="rrss">
-                    <a href="https://www.instagram.com/matt_strato/" target="_blank"> <img src="img/logo.ig.png" alt="instagram"></a>
-                    <a href="https://soundcloud.com/stratomatt" target="_blank"> <img src="img/logo.soundcloud.png" alt="soundcloud"></a>
-                    <a href="https://www.youtube.com/@matiasbustillos1221" target="_blank"> <img src="img/logo.youtube.png" alt="youtube"></a>
+            <div class="footer">
+                <nav class="navbar navbar-expand-lg d-flex justify-content-center" style="background-color: darkblue;">
+                    <a class="navbar-brand" href="https://www.instagram.com/matt_strato/" target="_blank"> <img src="img/logo.ig.png" alt="instagram"></a>
+                    <a class="navbar-brand" href="https://soundcloud.com/stratomatt" target="_blank"> <img src="img/logo.soundcloud.png" alt="soundcloud"></a>
+                    <a class="navbar-brand" href="https://www.youtube.com/@matiasbustillos1221" target="_blank"> <img src="img/logo.youtube.png" alt="youtube"></a>
                 </nav>    
             </div>
-        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </body>
 </html>
